@@ -112,3 +112,18 @@ function checkGuess() {
     return;
   }
 }
+
+document.getElementById("keyboard-cont").addEventListener("click", (e) => {
+  const target = e.target;
+
+  if (!target.classList.contains("keyboard-button")) {
+    return;
+  }
+  let key = target.textContent;
+
+  if (key === "Del") {
+    key = "Backspace";
+  }
+
+  document.dispatchEvent(new KeyboardEvent("keyup", { key: key }));
+});
