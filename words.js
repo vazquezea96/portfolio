@@ -18,4 +18,5 @@ export const WORDS = [
   "three",
   "years",
   "place",
+  "moose",
 ];
