@@ -52,7 +52,7 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  width: ;
 }
 
 /* background color divs */
@@ -228,6 +228,7 @@ nav [class*="fa-"]:hover {
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
+  width: 450px;
 }
 
 /* footer section */
